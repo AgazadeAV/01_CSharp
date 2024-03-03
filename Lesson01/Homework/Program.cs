@@ -11,3 +11,5 @@ double e = a + b;
 int f = c + d;
 
 double g = e / f;
+
+Console.Write(g);
