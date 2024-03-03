@@ -5,7 +5,7 @@
     {
         if (char.IsAsciiLetter(e) == false)
         {
-            letters = letters + e;
+            letters += e;
         }
     }
     return letters;
@@ -35,13 +35,13 @@ int[] FillArray(int num, int size)
 
 void PrintArray(int[] array)
 {
-    foreach(int item in array)
+    foreach (int item in array)
     {
         Console.Write($"{item} ");
     }
 }
 
-string str = Console.ReadLine();
+string str = Console.ReadLine()!;
 string result = GetNumbers(str);
 Console.WriteLine(result);
 int number = Convert.ToInt32(result);

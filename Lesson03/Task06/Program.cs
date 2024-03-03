@@ -7,12 +7,12 @@
         i++;
     }
     return arr;
-    
+
 }
 
 void PrintArray(int[] arr)
 {
-    foreach(int item in arr)
+    foreach (int item in arr)
     {
         Console.Write($"{item} ");
     }
@@ -21,7 +21,7 @@ void PrintArray(int[] arr)
 int GetSumOfElements(int[] arr)
 {
     int sum = 0;
-    foreach(int item in arr)
+    foreach (int item in arr)
     {
         sum += item;
     }
@@ -31,7 +31,7 @@ int GetSumOfElements(int[] arr)
 int GetProductOfElements(int[] arr)
 {
     int product = 1;
-    foreach(int item in arr)
+    foreach (int item in arr)
     {
         product *= item;
     }

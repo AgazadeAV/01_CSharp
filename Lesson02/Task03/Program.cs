@@ -7,5 +7,5 @@ while (i < n)
     {
         Console.Write($"{array[i]} ");
     }
-    i = i + 1;
+    i++;
 }

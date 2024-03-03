@@ -24,5 +24,5 @@ void ShowMatrix(int[,] matrix)
     }
 }
 
-int[,] matrix = CreateMatrix(4,5);
+int[,] matrix = CreateMatrix(4, 5);
 ShowMatrix(matrix);

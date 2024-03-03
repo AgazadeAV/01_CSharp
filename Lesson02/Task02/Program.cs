@@ -8,5 +8,5 @@ while (i < arr.Length)
     // Console.Write(arr[i]);
     // Console.Write(' ');
     Console.Write($"{arr[i]} ");
-    i = i + 1;
+    i++;
 }

@@ -5,12 +5,12 @@
     {
         if (char.IsAsciiLetter(e) == true)
         {
-            letters = letters + e;
+            letters += e;
         }
     }
     return letters;
 }
 
-string str = Console.ReadLine();
+string str = Console.ReadLine()!;
 string result = GetLetters(str);
 Console.WriteLine(result);

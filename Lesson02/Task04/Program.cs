@@ -8,7 +8,7 @@ while (i < array.Length)
     {
         max = array[i];
     }
-    i = i + 1;
+    i++;
 }
 Console.WriteLine(max);
 
@@ -23,7 +23,7 @@ for (int j = 0; j < array.Length; j++)
 Console.WriteLine(max);
 
 max = array[0];
-foreach(int e in array)
+foreach (int e in array)
 {
     if (e > max)
     {
